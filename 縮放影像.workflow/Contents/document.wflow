@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>246</string>
+	<string>346</string>
 	<key>AMApplicationVersion</key>
-	<string>2.1</string>
+	<string>2.3</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -58,14 +62,10 @@
 					<key>variableUUID</key>
 					<string>23B2185C-71E8-4618-8D70-D923D0A49E25</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Set_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:1128.000000</string>
+				<string>302.000000:1112.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/zh_TW.lproj/main.nib</string>
 			</dict>
@@ -135,7 +135,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.2</string>
+				<string>v.1.2.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>newName</key>
@@ -144,6 +148,7 @@
 						<array>
 							<string>影像縮放備份</string>
 							<string>$(131ECFBF-1CED-4C68-9D0C-D72A1006563F)</string>
+							<string> </string>
 							<string>$(C3395078-187B-4DC5-A4F8-11BE8309F49E)</string>
 						</array>
 					</dict>
@@ -171,18 +176,12 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>newName</key>
-					<string>影像縮放備份$(131ECFBF-1CED-4C68-9D0C-D72A1006563F)$(C3395078-187B-4DC5-A4F8-11BE8309F49E)</string>
-					<key>targetLocation</key>
-					<string></string>
+					<string>影像縮放備份$(131ECFBF-1CED-4C68-9D0C-D72A1006563F) $(C3395078-187B-4DC5-A4F8-11BE8309F49E)</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MakeNewFolder</string>
 				<key>CFBundleVersion</key>
-				<string>1.2</string>
+				<string>1.2.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -242,7 +241,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:1023.000000</string>
+				<string>302.000000:1007.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/zh_TW.lproj/main.nib</string>
 			</dict>
@@ -264,7 +263,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -273,6 +276,8 @@
 						<false/>
 						<key>selectedVariableUUID</key>
 						<string>F52F309A-9934-4DD9-A4CF-2A07B912D5D0</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
 					</dict>
 				</dict>
 				<key>AMProvides</key>
@@ -295,14 +300,10 @@
 					<key>variableUUID</key>
 					<string>F52F309A-9934-4DD9-A4CF-2A07B912D5D0</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Set_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -350,7 +351,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:893.000000</string>
+				<string>302.000000:877.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/zh_TW.lproj/main.nib</string>
 			</dict>
@@ -372,7 +373,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -381,15 +386,19 @@
 						<false/>
 						<key>selectedVariableUUID</key>
 						<string>23B2185C-71E8-4618-8D70-D923D0A49E25</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
 					</dict>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
+					<key>Optional</key>
+					<false/>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -403,14 +412,10 @@
 					<key>variableUUID</key>
 					<string>23B2185C-71E8-4618-8D70-D923D0A49E25</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Get_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -460,7 +465,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:788.000000</string>
+				<string>302.000000:772.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/zh_TW.lproj/main.nib</string>
 			</dict>
@@ -478,11 +483,15 @@
 					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.2</string>
+				<string>1.3.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>預覽程式</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>percentageValue</key>
@@ -500,7 +509,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.alias-object.image</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -516,16 +525,12 @@
 					<key>scaleValue</key>
 					<integer>0</integer>
 					<key>sizeValue</key>
-					<integer>480</integer>
+					<integer>1280</integer>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>預覽程式</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.ScaleImage</string>
 				<key>CFBundleVersion</key>
-				<string>1.2</string>
+				<string>1.3.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -613,171 +618,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:685.000000</string>
+				<string>302.000000:669.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Scale Images.action/Contents/Resources/zh_TW.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.1.6</string>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>notificationDescription</key>
-					<dict/>
-					<key>notificationTitle</key>
-					<dict/>
-					<key>priority</key>
-					<dict/>
-					<key>sticky</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array>
-					<dict>
-						<key>Display Name</key>
-						<string></string>
-						<key>Resource</key>
-						<string>com.Growl.GrowlHelperApp</string>
-						<key>Type</key>
-						<string>application</string>
-						<key>Version</key>
-						<string>1.1</string>
-					</dict>
-				</array>
-				<key>ActionBundlePath</key>
-				<string>/Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app/Contents/Library/Automator/Show Growl Notification.action</string>
-				<key>ActionName</key>
-				<string>Show Growl Notification</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>notificationDescription</key>
-					<string>您選取的影像已經縮放完成。</string>
-					<key>notificationTitle</key>
-					<string>影像縮放</string>
-					<key>priority</key>
-					<integer>0</integer>
-					<key>sticky</key>
-					<false/>
-				</dict>
-				<key>Application</key>
-				<array>
-					<string>GrowlHelperApp</string>
-				</array>
-				<key>BundleIdentifier</key>
-				<string>com.growl.GrowlAction</string>
-				<key>CFBundleVersion</key>
-				<string>1.1.6</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>Utility</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
-				<key>InputUUID</key>
-				<string>DEA40ED3-1EFF-430C-AEA1-BB753F098F13</string>
-				<key>Keywords</key>
-				<array>
-					<string>Growl</string>
-					<string>Notification</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>D9E67933-5990-4077-A442-9419F5918AFC</string>
-				<key>UUID</key>
-				<string>79048B9E-AD1E-4D45-ADE3-3A5A35497FA2</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>GrowlHelperApp</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>notificationTitle</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>priority</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>sticky</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>notificationDescription</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>302.000000:582.000000</string>
-				<key>nibPath</key>
-				<string>/Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app/Contents/Library/Automator/Show Growl Notification.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -795,7 +638,11 @@
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>affirmativeTitle</key>
@@ -810,7 +657,7 @@
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
-							<string>縮放影像</string>
+							<string>是否要移除影像縮放前的原始檔案備份？</string>
 						</array>
 					</dict>
 				</dict>
@@ -828,25 +675,20 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>affirmativeTitle</key>
-					<string>不要保留</string>
+					<string>移除備份</string>
 					<key>displayWarning</key>
 					<true/>
 					<key>explanationText</key>
-					<string>是否要保留影像縮放前的原始檔案備份？
-如果選擇保留，您可以在與您選擇影像的相同位置下找到「影像縮放備份」的檔案夾。</string>
+					<string>若您選擇保留，您可以在與您選擇影像的相同位置下找到「影像縮放備份」的檔案夾。</string>
 					<key>negativeTitle</key>
 					<string>保留</string>
 					<key>questionText</key>
-					<string>縮放影像</string>
+					<string>是否要移除影像縮放前的原始檔案備份？</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Ask for Confirmation</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -856,12 +698,12 @@
 					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
+				<string>AMAskForConfirmationAction</string>
 				<key>InputUUID</key>
 				<string>20098C33-F01A-42D9-A9BA-5CD02E2DBD1D</string>
 				<key>Keywords</key>
 				<array>
-					<string>郵件</string>
+					<string>訊息</string>
 					<string>要求</string>
 					<string>顯示</string>
 					<string>提示</string>
@@ -946,7 +788,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:386.000000</string>
+				<string>302.000000:566.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/zh_TW.lproj/main.nib</string>
 			</dict>
@@ -968,7 +810,11 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0</string>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>variableUUID</key>
@@ -977,6 +823,8 @@
 						<false/>
 						<key>selectedVariableUUID</key>
 						<string>F52F309A-9934-4DD9-A4CF-2A07B912D5D0</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
 					</dict>
 				</dict>
 				<key>AMProvides</key>
@@ -999,14 +847,10 @@
 					<key>variableUUID</key>
 					<string>F52F309A-9934-4DD9-A4CF-2A07B912D5D0</string>
 				</dict>
-				<key>Application</key>
-				<array>
-					<string>Automator</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Get_Value_of_Variable</string>
 				<key>CFBundleVersion</key>
-				<string>1.0</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1078,23 +922,23 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.1</string>
+				<string>1.1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
 				<key>AMParameterProperties</key>
 				<dict/>
 				<key>ActionBundlePath</key>
 				<string>/System/Library/Automator/Move Finder Items to Trash.action</string>
 				<key>ActionName</key>
-				<string>將 Finder 項目搬移到垃圾桶</string>
+				<string>將 Finder 項目丟到垃圾桶</string>
 				<key>ActionParameters</key>
 				<dict/>
-				<key>Application</key>
-				<array>
-					<string>Finder</string>
-				</array>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MoveToTrash</string>
 				<key>CFBundleVersion</key>
-				<string>1.1</string>
+				<string>1.1.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -1129,61 +973,54 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>159C57C6-23A9-4CC3-9DB0-A50D93924B2C</key>
-		<dict>
-			<key>from</key>
-			<string>73472B12-6783-4987-B8F9-1B89E8AFC6A4 - 73472B12-6783-4987-B8F9-1B89E8AFC6A4</string>
-			<key>to</key>
-			<string>AF315836-AF92-433F-AE9E-C2D9CD134E38 - AF315836-AF92-433F-AE9E-C2D9CD134E38</string>
-		</dict>
-		<key>1C98E29E-41A8-4567-89F8-FFF2610E377E</key>
+		<key>0C317154-F414-4051-9298-C13F81E38E8E</key>
 		<dict>
 			<key>from</key>
 			<string>5CB0CC77-EC6A-486E-9AFA-B4A67389C8AA - 5CB0CC77-EC6A-486E-9AFA-B4A67389C8AA</string>
 			<key>to</key>
 			<string>73472B12-6783-4987-B8F9-1B89E8AFC6A4 - 73472B12-6783-4987-B8F9-1B89E8AFC6A4</string>
 		</dict>
-		<key>21E9E3B8-AE1F-4580-9511-1CE7E9535F0F</key>
+		<key>2356A2AE-9C96-4E8B-9687-73C4CC4DEBAD</key>
 		<dict>
 			<key>from</key>
-			<string>98FBF171-9621-47B8-A454-19C9D775F204 - 98FBF171-9621-47B8-A454-19C9D775F204</string>
+			<string>D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46 - D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46</string>
 			<key>to</key>
-			<string>79048B9E-AD1E-4D45-ADE3-3A5A35497FA2 - 79048B9E-AD1E-4D45-ADE3-3A5A35497FA2</string>
+			<string>B24DD04A-2D78-45C7-939D-BC3573CCE7CE - B24DD04A-2D78-45C7-939D-BC3573CCE7CE</string>
 		</dict>
-		<key>433C4490-3EE5-4106-A0E7-366E199D3DE3</key>
+		<key>8FD00D73-933D-4D8D-9D2A-A9B6B62142C8</key>
+		<dict>
+			<key>from</key>
+			<string>3D26FEE3-61D7-4922-B4F8-7EAB7BC97973 - 3D26FEE3-61D7-4922-B4F8-7EAB7BC97973</string>
+			<key>to</key>
+			<string>98FBF171-9621-47B8-A454-19C9D775F204 - 98FBF171-9621-47B8-A454-19C9D775F204</string>
+		</dict>
+		<key>923D1D26-0A5E-469C-99D6-47B09A50B1E9</key>
 		<dict>
 			<key>from</key>
 			<string>AF315836-AF92-433F-AE9E-C2D9CD134E38 - AF315836-AF92-433F-AE9E-C2D9CD134E38</string>
 			<key>to</key>
 			<string>3D26FEE3-61D7-4922-B4F8-7EAB7BC97973 - 3D26FEE3-61D7-4922-B4F8-7EAB7BC97973</string>
 		</dict>
-		<key>63F1EF71-C726-4C48-8EDB-5E1B22F6ABC9</key>
+		<key>BB2D8E2C-40AD-46CF-AC9A-BCD556F25B9C</key>
 		<dict>
 			<key>from</key>
-			<string>79048B9E-AD1E-4D45-ADE3-3A5A35497FA2 - 79048B9E-AD1E-4D45-ADE3-3A5A35497FA2</string>
+			<string>73472B12-6783-4987-B8F9-1B89E8AFC6A4 - 73472B12-6783-4987-B8F9-1B89E8AFC6A4</string>
+			<key>to</key>
+			<string>AF315836-AF92-433F-AE9E-C2D9CD134E38 - AF315836-AF92-433F-AE9E-C2D9CD134E38</string>
+		</dict>
+		<key>DF805D23-72A8-4C0A-9D75-35D6A36608AE</key>
+		<dict>
+			<key>from</key>
+			<string>98FBF171-9621-47B8-A454-19C9D775F204 - 98FBF171-9621-47B8-A454-19C9D775F204</string>
 			<key>to</key>
 			<string>D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46 - D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46</string>
 		</dict>
-		<key>75BBC0DF-FBF5-425A-846A-777337CD2F64</key>
-		<dict>
-			<key>from</key>
-			<string>3D26FEE3-61D7-4922-B4F8-7EAB7BC97973 - 3D26FEE3-61D7-4922-B4F8-7EAB7BC97973</string>
-			<key>to</key>
-			<string>98FBF171-9621-47B8-A454-19C9D775F204 - 98FBF171-9621-47B8-A454-19C9D775F204</string>
-		</dict>
-		<key>8177326E-4129-4592-A4CE-C86AB8C2BFD5</key>
+		<key>F9CB642A-C036-4E49-B7D3-00DB475C5471</key>
 		<dict>
 			<key>from</key>
 			<string>B24DD04A-2D78-45C7-939D-BC3573CCE7CE - B24DD04A-2D78-45C7-939D-BC3573CCE7CE</string>
 			<key>to</key>
 			<string>60534DC1-3414-4356-953C-E87139E1206A - 60534DC1-3414-4356-953C-E87139E1206A</string>
-		</dict>
-		<key>D52E0902-D6E0-4187-B36D-C5F9EC1DA464</key>
-		<dict>
-			<key>from</key>
-			<string>D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46 - D1F9B421-3BF8-4DB9-8BB8-5B4252DEBB46</string>
-			<key>to</key>
-			<string>B24DD04A-2D78-45C7-939D-BC3573CCE7CE - B24DD04A-2D78-45C7-939D-BC3573CCE7CE</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1262,23 +1099,19 @@
 	<array>
 		<dict>
 			<key>UUID</key>
-			<string>C18BCE1D-FB4F-4387-B81E-EBD44BBD8769</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Path</string>
-			<key>name</key>
-			<string>目標檔案路徑</string>
-			<key>value</key>
-			<string>/Users/zhusee2/Sites/ePortfolio/images/photo/DSC04626.JPG</string>
-		</dict>
-		<dict>
-			<key>UUID</key>
 			<string>131ECFBF-1CED-4C68-9D0C-D72A1006563F</string>
 			<key>identifier</key>
 			<string>com.apple.Automator.Variable.CurrentDate</string>
 			<key>name</key>
 			<string>今天的日期</string>
 			<key>value</key>
-			<string>yyyy年M月d日</string>
+			<array>
+				<string>yyyy</string>
+				<string>-</string>
+				<string>MM</string>
+				<string>-</string>
+				<string>dd</string>
+			</array>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1290,7 +1123,7 @@
 			<key>value</key>
 			<array>
 				<string>a</string>
-				<string>h</string>
+				<string>KK</string>
 				<string>-</string>
 				<string>mm</string>
 			</array>
@@ -1303,7 +1136,7 @@
 			<key>name</key>
 			<string>備份路徑</string>
 			<key>value</key>
-			<string>/Users/zhusee2/Sites/ePortfolio/images/photo/影像縮放備份2010-1月-9下午5-02</string>
+			<string>/Users/zhusee2/Desktop/影像縮放備份2013-01-15 上午00-08</string>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1324,6 +1157,8 @@
 		<string>com.apple.Automator.fileSystemObject.image</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
